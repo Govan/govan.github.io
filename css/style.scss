@@ -497,6 +497,10 @@ pre {
   list-style: none;
   margin-left: 0;
 }
+.social-media-list li {
+  float: left;
+  margin-left: $spacing-unit / 2;
+}
 .small-site-title {
   font-family: "PT Sans";
 }
@@ -522,11 +526,7 @@ pre {
 }
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width: calc(20% - (#{$spacing-unit} / 2));
-}
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width: calc(45% - (#{$spacing-unit} / 2));
+  width: calc(65% - (#{$spacing-unit} / 2));
 }
 @include media-query($on-laptop) {
   .footer-col-1,
